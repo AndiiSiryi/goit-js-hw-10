@@ -1,1 +1,58 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+body,
+img,
+h1,
+h2,
+p,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin-left: 20px;
+    height: 100vh;
+}
+
+.breed-select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.loader {
+    display: none;
+    margin-top: 10px;
+}
+
+.error {
+    display: none;
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.cat-info {
+    display: none;
+    margin-top: 20px;
+    text-align: left;
+    max-width: 300px;
+}
+
+.cat-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+   }
+
+.cat-info p{
+    margin-top: 7px;
+}
